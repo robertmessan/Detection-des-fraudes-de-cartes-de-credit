@@ -11,3 +11,5 @@ Le jeu de données est chargé depuis la plateforme kaggle. Nous avons eu à tra
 les données pour pouvoir répondre à notre problématique.
 
 ➡Installez les packages nécessaires pour pouvoir exécuter le code.
+
+Développé par: https://www.linkedin.com/in/kossi-robert-messan-252954223/
