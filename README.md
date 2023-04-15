@@ -13,3 +13,7 @@ les données pour pouvoir répondre à notre problématique.
 ➡Installez les packages nécessaires pour pouvoir exécuter le code.
 
 Développé par: https://www.linkedin.com/in/kossi-robert-messan-252954223/
+
+Interface de l'application:
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/110102072/232253761-84ce19f7-85c4-4aa7-9e16-3b59ff9acd10.png">
+
