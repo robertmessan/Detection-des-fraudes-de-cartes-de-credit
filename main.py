@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import sklearn
 
 st.write("l'application de prévision de l'accord de crédit")
 #Collecter le profil d'entrée
