@@ -43,7 +43,7 @@ input_df=client_caract_entree()
 
 #Transformer les données d'entrée en données adaptées à notre modèle
 #importer la base de données
-df=pd.read_csv('C:/Users/thinkpad/Downloads/projet_previsionCredit/train.csv')
+df=pd.read_csv('train.csv')
 credit_input=df.drop(columns=['Loan_ID','Loan_Status'])
 donnee_entree=pd.concat([input_df,credit_input],axis=0)
 
