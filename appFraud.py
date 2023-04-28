@@ -81,7 +81,7 @@ input_df=client_caract_entree()
 #Transformer les données d'entrée en données adaptées à notre modèle
 #importer la base de données
 
-df=pd.read_csv('creditcard.csv')
+df=pd.read_csv('C:/Users/thinkpad/Downloads/Projet_Machine_Learning_Robert_2023/FraudDetection/creditcard.csv')
 credit_input=df.drop(columns='Class')
 donnee_entree=pd.concat([input_df,credit_input],axis=0)
 
