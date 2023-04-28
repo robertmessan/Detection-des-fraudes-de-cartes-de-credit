@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+pip install scikit-learn
+import sklearn
 
 st.title("Application de détection de fraude de carte de Crédit")
 #Collecter le profil d'entrée
