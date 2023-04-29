@@ -22,10 +22,6 @@ def client_caract_entree():
     V9=st.sidebar.slider('Valeur de V9',-15.0,20.0,0.1)
     V10=st.sidebar.slider('Valeur de V10',-10.0,10.0,0.1)
     V11=st.sidebar.slider('Valeur de V11',-10.0,10.0,0.1)
-    V12=st.sidebar.slider('Valeur de V12',-10.0,10.0,0.1)
-    V13=st.sidebar.slider('Valeur de V13',-10.0,10.0,0.1)
-    V14=st.sidebar.slider('Valeur de V14',-10.0,10.0,0.1)
-    V15=st.sidebar.slider('Valeur de V15',-10.0,10.0,0.1)
     V16=st.sidebar.slider('Valeur de V16',-10.0,10.0,0.1)
     V17=st.sidebar.slider('Valeur de V17',-10.0,10.0,0.1)
     V18=st.sidebar.slider('Valeur de V18',-10.0,10.0,0.1)
@@ -86,8 +82,6 @@ df=pd.read_csv('creditcard.csv')
 credit_input=df.drop(columns='Class')
 donnee_entree=pd.concat([input_df,credit_input],axis=0)
 
-#prendre uniquement la premiere ligne
-donnee_entree=donnee_entree[:1]
 
 
 
